@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 14;
+    color: #333333;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #f8f8f8;
+}
+
+button {
+    color: #f8f8f8;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    margin-bottom: 8px;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 80px;
+    width: 100vw;
+    background-color: #8A1214;
+    z-index: 1000;
+    position: absolute;
+    top: 0;
+}
+
+.navActive {
+    color: #EAA200;
+}
+
+.navLogo {
+    margin: 8px 40px;
+}
+
+.navImage {
+    max-height: 64px;
+    border-radius: 10px;
+}
+
+.navLinks {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 40px;
+}
+
+.navLinks a {
+    padding: 24px;
+    color: #f8f8f8
+}
+
+.navLinks a:hover {
+    color: #EAA200;
+}
+
+.hero {
+    height: 100vh;
+    background-image: url("img/hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.heroText {
+    text-align: center;
+    margin: 80px 144px;
+}
+
+.heroText h1 {
+    color: #f8f8f8;
+}
+
+.heroText h4 {
+    color: #f8f8f8;
+    margin-bottom: 32px;
+}
+
+.heroButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.primary {
+    padding: 8px 32px;
+    margin: 8px;
+    background-color: #EAA200;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: #EAA200;
+    border-style:solid;
+}
+
+.primary:hover{
+    background-color:#CC8D00;
+    border-color:#CC8D00;
+    cursor: pointer;
+}
+
+.ghost {
+    padding: 8px 32px;
+    margin: 8px;
+    border-width: 2px;
+    border-color: #f8f8f8;
+    border-radius: 5px;
+    background: none;
+    border-style:solid;
+}
+
+.ghost:hover {
+    background-color: rgba(234,162,0,0.2);
+    border-color:#EAA200;
+    cursor: pointer;
+}
