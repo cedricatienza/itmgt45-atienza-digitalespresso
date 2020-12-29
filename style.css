@@ -45,6 +45,11 @@ h5 {
     line-height: 24px;
 }
 
+i {
+    color: #333;
+    padding: 8px;
+}
+
 .navLanding {
     display: flex;
     flex-direction: row;
@@ -120,7 +125,7 @@ h5 {
 
 .heroText h4 {
     color: #f8f8f8;
-    margin-bottom: 32px;
+    margin-bottom: 24px;
 }
 
 .heroButtons {
@@ -130,7 +135,7 @@ h5 {
 }
 
 .primary {
-    padding: 8px 32px;
+    padding: 16px 32px;
     margin: 8px;
     background-color: #EAA200;
     border-radius: 5px;
@@ -146,7 +151,7 @@ h5 {
 }
 
 .ghost {
-    padding: 8px 32px;
+    padding: 16px 32px;
     margin: 8px;
     border-width: 2px;
     border-color: #f8f8f8;
@@ -165,7 +170,7 @@ h5 {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 40px 144px 24px 144px;
+    margin: 40px 96px 24px 96px;
 }
 
 .grid {
@@ -174,7 +179,7 @@ h5 {
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
-    margin: 0px 144px 80px 144px;
+    margin: 0px 96px 80px 96px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto;
 }
@@ -218,4 +223,33 @@ h5 {
 .caption {
     padding: 8px;
     color: #f8f8f8;
+}
+
+.back {
+    margin: 40px 96px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.productPage {
+    margin: 40px 96px 80px 96px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.productRound {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.productDesc {
+    margin-left: 32px;
+}
+
+.productDesc p {
+    padding-top: 24px;
 }
